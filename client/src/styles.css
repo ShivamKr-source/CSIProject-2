@@ -1,0 +1,163 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.musicHead{
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.music{
+    top: 100px;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.newSongBtn{
+    border: none;
+    padding: 10px;
+}
+
+.newSongBtn Link{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+}
+
+.allMusic{
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../src/assets/musicSel.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.artist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.m{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color:antiquewhite ;
+}
+
+.delete{
+    border:none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242,100,100); 
+}
+
+.update{
+    border:none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204,204,243);
+    color: rgb(139,139,234); 
+}
+
+.form{
+    height: 100vh;
+    width: 800px;
+    background-image: url("../src/assets/addMusic.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.artistS{
+    height: 100vh;
+    width: auto;
+    background-image: url("../src/assets/artistback.jpg");
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.genre{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../src/assets/genre.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.input{
+    width: 250px;
+    padding: 10px;
+    border:1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: lightcoral;
+    color:antiquewhite
+}
+
+.genreHead{
+    padding: 30px;
+}
+
+.genreBTN{
+    text-decoration: none;
+    background-color: lightgoldenrodyellow;
+    border-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    margin: 5px;    
+}
+
+.artistHead{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.artistAddBtn{
+    border: 2px;
+    padding: 10px;
+    border-color: rgb(45, 48, 214);
+    border-radius: 70%;
+}
+
+.linkArtist{
+    text-decoration: none;
+    color: rgb(214, 15, 218);
+}
+
+.linkUpdate{
+    text-decoration: none;
+}
+
+.addNewSongBTN{
+    text-decoration: none;
+}
